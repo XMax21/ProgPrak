@@ -45,4 +45,12 @@ public class MenuController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void switchToSpielregeln(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("spielregeln.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }

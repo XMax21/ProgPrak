@@ -5,14 +5,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schiffeversenken.SpielregelnController">
    <children>
-      <Label layoutX="198.0" layoutY="147.0" text="Wer soll Beginnen?">
+      <Label layoutX="198.0" layoutY="147.0" text="Wer soll Beginnen?" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="198.0" AnchorPane.rightAnchor="198.0" AnchorPane.topAnchor="147.0">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Button layoutX="198.0" layoutY="274.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="145.0" text="Player1 (You)" />
-      <Button layoutX="357.0" layoutY="274.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="145.0" text="Player2 (Enemy)" />
+      <Button layoutX="198.0" layoutY="274.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Player1 (You)" AnchorPane.bottomAnchor="273.0" AnchorPane.leftAnchor="198.0" AnchorPane.rightAnchor="357.0" AnchorPane.topAnchor="274.0" />
+      <Button layoutX="357.0" layoutY="274.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Player2 (Enemy)" AnchorPane.bottomAnchor="273.0" AnchorPane.leftAnchor="357.0" AnchorPane.rightAnchor="198.0" AnchorPane.topAnchor="274.0" />
+      <Button layoutX="300.0" layoutY="536.0" mnemonicParsing="false" onAction="#switchToMenu" prefHeight="50.0" prefWidth="100.0" text="Zurück" />
    </children>
 </AnchorPane>

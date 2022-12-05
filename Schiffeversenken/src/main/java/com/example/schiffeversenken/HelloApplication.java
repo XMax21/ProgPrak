@@ -4,7 +4,9 @@ import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -18,7 +20,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Schiffe versenken");
         stage.setScene(scene);
 
-        scene.widthProperty().addListener(new ChangeListener<Number>() {
+/*        scene.widthProperty().addListener(new ChangeListener<Number>() {
             @Override public void changed(ObservableValue<? extends Number> observableValue, Number oldSceneWidth, Number newSceneWidth) {
                 System.out.println("Width: " + newSceneWidth);
             }
@@ -27,8 +29,7 @@ public class HelloApplication extends Application {
             @Override public void changed(ObservableValue<? extends Number> observableValue, Number oldSceneHeight, Number newSceneHeight) {
                 System.out.println("Height: " + newSceneHeight);
             }
-        });
-
+        });*/
         stage.show();
     }
 
