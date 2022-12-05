@@ -59,10 +59,10 @@ public class StartscreenController {
 
     private void loadNextScene() {
         try {
-            Parent secondView;
-            secondView = FXMLLoader.load(getClass().getResource("menu.fxml"));
+            Parent nextView;
+            nextView = FXMLLoader.load(getClass().getResource("menu.fxml"));
 
-            Scene newScene = new Scene(secondView);
+            Scene newScene = new Scene(nextView);
 
             Stage currStage = (Stage) rootPane.getScene().getWindow();
             currStage.setScene(newScene);
