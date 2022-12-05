@@ -11,9 +11,9 @@
     <children>
         <VBox alignment="CENTER" layoutX="276.0" layoutY="170.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="260.0" prefWidth="149.0" spacing="20.0" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="275.0" AnchorPane.topAnchor="170.0">
             <children>
-                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Player vs Com" />
-                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Player vs Player" />
-                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Com vs Com" />
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#switchToPlayervsCom" prefHeight="50.0" prefWidth="100.0" text="Player vs Com" />
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#switchToPlayervsPlayer" prefHeight="50.0" prefWidth="100.0" text="Player vs Player" />
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#switchToComvsCom" prefHeight="50.0" prefWidth="100.0" text="Com vs Com" />
             </children>
         </VBox>
         <HBox alignment="CENTER" layoutX="179.0" layoutY="430.0" prefHeight="116.0" prefWidth="344.0" spacing="100.0" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="179.0" AnchorPane.rightAnchor="177.0" AnchorPane.topAnchor="430.0">
