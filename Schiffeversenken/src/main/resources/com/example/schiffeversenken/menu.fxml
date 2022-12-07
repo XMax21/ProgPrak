@@ -19,9 +19,9 @@
         <HBox alignment="CENTER" layoutX="179.0" layoutY="430.0" prefHeight="116.0" prefWidth="344.0" spacing="100.0" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="179.0" AnchorPane.rightAnchor="177.0" AnchorPane.topAnchor="430.0">
             <children>
                 <Button mnemonicParsing="false" onAction="#switchToSpielregeln" prefHeight="50.0" prefWidth="100.0" text="Spielregeln" />
-                <Button mnemonicParsing="false" onAction="#closeGame" prefHeight="50.0" prefWidth="100.0" text="Beenden" />
+                <Button mnemonicParsing="false" onAction="#closeGame" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: burlywood; -fx-border-color: saddlebrown; -fx-border-width: 3;" text="Beenden" />
             </children>
-        </HBox>
+        </HBox> 
       <HBox alignment="CENTER" layoutX="142.0" layoutY="120.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="380.0" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="139.0" AnchorPane.topAnchor="120.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Wähle einen Spielmodus" textAlignment="CENTER" wrappingWidth="419.0">

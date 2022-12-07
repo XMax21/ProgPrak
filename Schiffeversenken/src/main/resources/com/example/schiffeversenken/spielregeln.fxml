@@ -3,10 +3,15 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schiffeversenken.SpielregelnController">
    <children>
       <TextArea editable="false" layoutX="10.0" layoutY="10.0" prefHeight="519.0" prefWidth="681.0" text="Ziel des Spieles&#10;&#10;Jeder Spieler versteckt eine kleine Flotte von Schiffen vor seinem Gegner. &#10;Derjenige, der zuerst alle Schiffe des Gegners komplett getroffen und versenkt hat, gewinnt.&#10;&#10;Beide Flotten bestehen aus folgenden 5 Schiffen:&#10;1 Schlachtschiff (5 Treffer nötig zum Versenken)&#10;1 Kreuzer (4 Treffer nötig zum Versenken)&#10;2 Fregatten (3 Treffer nötig zum Versenken)&#10;1 Minensucher (2 Treffer nötig zum Versenken)&#10;&#10;Das Einsetzen der Schiffe&#10;&#10;Vor dem ersten Zug muss jeder seine Schiffe einsetzen. Die Schiffe müssen so eingesetzt werden, dass sie sich weder horizontal noch vertikal berühren - sie dürfen also nicht an einer Kante angrenzen, diagonales Berühren über Eck ist zulässig.&#10;Wähle ein Schiff durch Anklicken, drehe es gegebenenfalls durch den entsprechenden Button. Schiebe es über das Brett bis die Position stimmt und klicke dann, um es abzusetzen. Wenn du ein Schiff wieder entfernen willst, kannst du es durch Anklicken wieder zurücknehmen. Sind alle Schiffe eingesetzt, bestätige und das Spiel kann starten.&#10;&#10;Auf Felder schießen&#10;&#10;Von jetzt an siehst du immer zwei Spielbretter:&#10;Im oberen Brett kannst du deine eigenen Schüsse und deren Erfolge sehen.&#10;Im unteren Brett siehst du deine Schiffe und die Treffer deines Gegners.&#10;Feuere auf ein bestimmtes Feld, indem du im oberen Brett auf das gewünschte Feld klickst. Bestätige und du siehst sofort, ob du getroffen hast.&#10;&#10;Sieger&#10;&#10;Wer als erstes alle gegnerischen Schiffe versenkt hat, ist Sieger." wrapText="true" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="10.0" />
-      <Button layoutX="352.0" layoutY="536.0" mnemonicParsing="false" onAction="#switchToMenu" prefHeight="50.0" prefWidth="100.0" text="Zurück" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="352.0" AnchorPane.rightAnchor="348.0" AnchorPane.topAnchor="536.0" />
+      <HBox alignment="BOTTOM_CENTER" layoutX="300.0" layoutY="486.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="486.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToMenu" prefHeight="50.0" prefWidth="100.0" text="Zurück" />
+         </children>
+      </HBox>
    </children>
 </AnchorPane>
