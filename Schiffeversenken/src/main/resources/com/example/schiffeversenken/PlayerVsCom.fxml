@@ -30,10 +30,10 @@
             </Label>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="345.0" spacing="30.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Player" />
-                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Com" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: burlywood; -fx-border-color: saddlebrown; -fx-border-width: 3;" text="Player" />
                </children>
             </HBox>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-border-color: saddlebrown; -fx-background-color: burlywood; -fx-border-width: 3;" text="Com" />
          </children>
       </VBox>
    </children>

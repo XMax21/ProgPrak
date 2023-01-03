@@ -30,10 +30,10 @@
             </Label>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="345.0" spacing="30.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Com1" />
-                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" text="Com2" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: burlywood; -fx-border-width: 3; -fx-border-color: saddlebrown;" text="Com1" />
                </children>
             </HBox>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: burlywood; -fx-border-width: 3; -fx-border-color: saddlebrown;" text="Com2" />
          </children>
       </VBox>
    </children>
