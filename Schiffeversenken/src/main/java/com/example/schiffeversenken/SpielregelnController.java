@@ -57,7 +57,7 @@ public class SpielregelnController {
     }
 
     public void switchToGameSize(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("GameSize.fxml"));
+        root = FXMLLoader.load(getClass().getResource("SpielEinstellen.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

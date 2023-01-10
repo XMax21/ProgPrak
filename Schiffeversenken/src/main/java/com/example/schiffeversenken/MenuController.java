@@ -28,7 +28,7 @@ public class MenuController {
     private Parent root;
 
     public void switchToPlayervsCom(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("PlayerVsCom.fxml"));
+        root = FXMLLoader.load(getClass().getResource("SpielEinstellen.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
