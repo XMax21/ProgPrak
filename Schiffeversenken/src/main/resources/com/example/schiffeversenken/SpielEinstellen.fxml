@@ -39,12 +39,12 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <RadioButton layoutX="550.0" layoutY="167.0" mnemonicParsing="false" text="RadioButton">
+      <RadioButton layoutX="550.0" layoutY="167.0" mnemonicParsing="false" text="Normal">
          <toggleGroup>
             <ToggleGroup fx:id="tg2" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton layoutX="550.0" layoutY="192.0" mnemonicParsing="false" text="RadioButton" toggleGroup="$tg2" />
-      <RadioButton layoutX="550.0" layoutY="218.0" mnemonicParsing="false" text="RadioButton" toggleGroup="$tg2" />
+      <RadioButton layoutX="550.0" layoutY="192.0" mnemonicParsing="false" text="Schwer" toggleGroup="$tg2" />
+      <RadioButton layoutX="550.0" layoutY="218.0" mnemonicParsing="false" text="Wahnsinnig" toggleGroup="$tg2" />
    </children>
 </AnchorPane>
